@@ -1,0 +1,184 @@
+html{
+    margin: 0;
+    padding: 0;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+header{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header>div{
+    background-color: rgb(21, 231, 158);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* min-width: 306px; */
+}
+
+header>nav{
+    background-color: rgb(204, 247, 232);
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    display: none;
+}
+
+
+header>nav>a{
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header>nav>a:hover{
+    color: rgb(78, 169, 197);
+    text-transform: uppercase;
+    transition: ease-out 1s;
+}
+
+h1{margin: 2px;}
+header>nav>a{margin: 2px;}
+/* ////////// END OF HEADER ////////// */
+
+main{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    height: 615px;
+}
+
+main>#pgn{
+    display: inline;
+    
+}
+
+main #pgn>a>img{
+    width: 160px;
+    margin-left: 10px;
+}
+
+
+main>.img{
+    display: flex;
+    background-color: rgba(147, 248, 213, 0.877);
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main .im{
+    border: rgba(24, 155, 137, 0.205) solid;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+main>.about{
+    background-color: rgba(163, 248, 218, 0.788);
+    padding-left:50px;
+}
+
+main .a{
+    color: rgb(132, 132, 136);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+
+}
+main .b{
+    font-size: 23px;
+    color: rgb(80, 78, 77);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 16px;
+}
+main .c{
+    font-size: 13px;
+    color: rgb(66, 66, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .bt , aside .bt{
+    text-decoration: none;
+    background-color: mediumturquoise;
+    border-radius: 15px;
+    color: black;
+}
+
+main .bt:hover , aside .bt:hover{
+    font-size: 15px;
+    opacity: 0.8;
+    color: red;
+
+}
+
+
+/* ///////////////// END MAIN//////////////// */
+
+aside{
+    background-color: goldenrod;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+aside .learning{
+    /* border: maroon solid; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    /* width: 200px; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-gap: 4px; */
+}
+
+aside>div>.learning{
+    display: grid;
+    grid-template-columns: 1fr ;
+
+}
+
+aside .logo{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(16, 121, 16);
+    /* max-width: 200px; */
+    width: 110px;
+    /* min-width: 110px; */
+    margin: 10px;
+}
+
+aside .java{
+    padding-top: 6px;
+}
+
+aside .logo:last-of-type{ 
+    margin-right: 10px;
+    padding-right: 10px;
+    
+}
+
+aside .logo:hover{
+    background-color: lawngreen;
+}
